@@ -1,5 +1,5 @@
 <h1 align="center">
-   🦠 <a href="#"> COVID-19 TRACKER </a>
+   🦠 <a href=""> COVID-19 TRACKER </a>
 </h1>
 
 <h3 align="center">
@@ -13,13 +13,9 @@
 <p align="center">
  <a href="#about">About</a> •
  <a href="#features">Features</a> •
- <a href="#layout">Layout</a> • 
+ <a href="#screenshots">Screenshots</a> • 
  <a href="#how-it-works">How it works</a> • 
- <a href="#tech-stack">Tech Stack</a> • 
- <a href="#contributors">Contributors</a> • 
- <a href="#author">Author</a> • 
- <a href="#user-content-license">License</a>
-
+ <a href="#tech-stack">Tech Stack</a> •
 </p>
 
 
