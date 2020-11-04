@@ -39,13 +39,13 @@
 ## Screenshots
 
 <p align="center">
-  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(234).png" width="200px">
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(234).png">
 
-  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(235).png" width="200px">
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(235).png">
   
-  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(236).png" width="200px">
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(236).png">
   
-  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(238).png" width="200px">
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(238).png">
 </p>
 
 ---
