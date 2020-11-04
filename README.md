@@ -115,3 +115,5 @@ The following tools were used in the construction of the project:
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
 
 ---
+
+<h3 align="center"><b>Developed with :heart: by <a href="https://github.com/Yola21">Yash</a></b></h1>
