@@ -15,7 +15,7 @@
  <a href="#features">Features</a> •
  <a href="#screenshots">Screenshots</a> • 
  <a href="#how-it-works">How it works</a> • 
- <a href="#tech-stack">Tech Stack</a> •
+ <a href="#tech-stack">Tech Stack</a> 
 </p>
 
 
