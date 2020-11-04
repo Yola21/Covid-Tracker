@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+<h1 align="center">
+   🦠 <a href="#"> COVID-19 TRACKER </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    Stats of every country's COVID-19 data at one place!
+</h3>
 
-## Available Scripts
+<h4 align="center"> 
+	 Status: Finished
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#layout">Layout</a> • 
+ <a href="#how-it-works">How it works</a> • 
+ <a href="#tech-stack">Tech Stack</a> • 
+ <a href="#contributors">Contributors</a> • 
+ <a href="#author">Author</a> • 
+ <a href="#user-content-license">License</a>
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About
 
-### `yarn test`
+🦠 COVID-19 Tracker - is a tracker which gives you stats of COVID-19 reports of every country. You can see the total stats worldwide as well as countrywise.
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `yarn build`
+   - [x] map of countries affected with stats
+   - [x] circles on country to represent cases
+   - [x] larger the circle, more cases the country have
+   - [x] cases confirmed, cases recovered and deaths
+   - [x] pictorial representation with graph
+   - [x] in addition to select any particular country from dropdown
+   - [x] table representing the total cases of countries in descending order
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(234).png" width="200px">
 
-### `yarn eject`
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(235).png" width="200px">
+  
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(236).png" width="200px">
+  
+  <img alt="cases" src="https://github.com/Yola21/Covid-Tracker/blob/main/Screenshots/Screenshot%20(238).png" width="200px">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How it works
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project have only one part:
+1. Frontend
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+It will need an account in Google to connect it to the Firebase for hosting.
 
-## Learn More
+### Pre-requisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Running the web application
 
-### Code Splitting
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Clone this repository
+$ git clone https://github.com/Yola21/Covid-Tracker.git
 
-### Analyzing the Bundle Size
+# Go to your local repository:
+$ cd [local repository]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Check package.json file and ensure scripts are notated as below:
 
-### Making a Progressive Web App
+$ "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  
+# Delete the node_modules folder and any 'lock' files such as 
+yarn.lock or package-lock.json (if present).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Install dependencies
+$ npm install
 
-### Advanced Configuration
+# Run the application
+$ npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Tech Stack
 
-### `yarn build` fails to minify
+The following tools were used in the construction of the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### **Website**  ([React](https://reactjs.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[Leaflet](https://react-leaflet.js.org/en/)**
+-   **[React Leaflet](https://react-leaflet.js.org/)**
+-   **[React ChartJS-2](https://www.npmjs.com/package/react-chartjs-2)**
+
+> See the file  [package.json](https://github.com/Yola21/Covid-Tracker/blob/main/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilities**
+
+-   API:  **[Disease.sh](https://disease.sh/)**  
+-   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
+
+---
