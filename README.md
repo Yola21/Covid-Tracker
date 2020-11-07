@@ -105,6 +105,7 @@ The following tools were used in the construction of the project:
 -   **[Leaflet](https://react-leaflet.js.org/en/)**
 -   **[React Leaflet](https://react-leaflet.js.org/)**
 -   **[React ChartJS-2](https://www.npmjs.com/package/react-chartjs-2)**
+-   **[Firebase](https://firebase.google.com/)**
 
 > See the file  [package.json](https://github.com/Yola21/Covid-Tracker/blob/main/package.json)
 
